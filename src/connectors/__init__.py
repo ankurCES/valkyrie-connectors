@@ -5,3 +5,6 @@ from .redis import RedisConnector
 from .s3 import S3Connector
 from .azure_blob import AzureBlobConnector
 from .salesforce import SalesforceConnector
+from .gcs import GCSConnector
+from .snowflake import SnowflakeConnector
+from .servicenow import ServiceNowConnector
